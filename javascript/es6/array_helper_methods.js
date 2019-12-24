@@ -27,14 +27,12 @@ primes.forEach(adder)
 console.log(`The sum of primes is ${sum}`);
 
 
-
-
-
-
-
 //2.map
-
-
+let nums = [1, 2, 3, 4, 5, 6];
+let doubled = nums.map(function(num){
+    return num * 2;
+})
+console.log(`The doubled nums array is : ${doubled}`);
 
 // 3. filter
 
